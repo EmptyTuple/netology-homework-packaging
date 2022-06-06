@@ -1,2 +1,2 @@
-from application import salary, people
+from application import salary
 
