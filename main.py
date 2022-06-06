@@ -1,6 +1,7 @@
 from datetime import datetime
 import time
-from application import people, salary
+from application import salary
+from application.db import people
 
 def main():
     print(f'Current time: {datetime.now().strftime("%b %d %Y %H:%M:%S")}')
